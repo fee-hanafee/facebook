@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    display: block;
+    background-color: #f0f2f5;
+}
+/* content */
+.content {
+    padding-top: 120px;
+    display: block;
+    height: 80vh;
+    min-height: 640px;
+    transition: 1s;
+}
+.contentInside {
+    
+    display: flex;
+    height: 440px;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.textFb {
+    display: inline-block;
+   padding-left: 120px;
+    width: 500px;
+    vertical-align: top;
+    margin: auto;
+    transition: 1s;
+    
+}
+.textFb h1 {
+    color: #1877F2;
+    font-size: 3rem;
+    padding: 0 0 12px;
+}
+.textFb h2 {
+    font-size: 26px;
+    color: #444950;
+}
+.fromLogin {
+    display: inline-block;
+    width: 80%;
+    max-width: 380px;
+    height: 70%;
+    padding-top: 12px;
+    background-color: #fff;
+    margin: auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    border-radius: 4px;
+}
+.textId {
+    padding: 4px 12px;
+}
+.textId > * {
+    padding: 16px;
+    width: 100%;
+    font-size: 18px;
+    margin-bottom: 8px;
+    border: 0.6px solid rgba(0, 0, 0, .2);
+    border-radius: 4px;
+    color: rgba(0, 0, 0, .6);
+    overflow: hidden;
+}
+.textLogin {
+    text-align: center;
+    margin: 0 12px;
+    font-size: 18px;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #1877F2 ;
+    border-radius: 4px;
+}
+.textLost {
+    text-align: center;
+    padding: 12px 0;
+    margin: auto;
+    width: 80%;
+    color: #1877F2;
+    border-bottom: 1px solid  rgba(0, 0, 0, .2);;
+}
+.textRegis {
+    text-align: center;
+    color: #fff;
+    border-radius: 4px;
+    background-color: #00A400;
+    width: 200px;
+    padding: 12px;
+    margin: auto;
+    margin-top: 12px;
+}
+
+/* content end */
+.contentFooter {
+    display: block;
+    height: 20vh;
+    border: 1px dashed black;
+}
+
+@media only screen and (min-width : 370px) and (max-width : 600px) {
+    .textFb {
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 28px;
+        transition: 1s;
+    }
+    .content {
+        padding-top: 60px;
+    }
+}
+@media only screen and (min-width : 601px) and (max-width : 1024px) {
+    .textFb {
+        text-align: center;
+        padding-left: 0;
+        padding-bottom: 42px;
+        transition: 1s;
+    }
+}
+@media only screen and (min-width : 1025px) {
+  
+}
